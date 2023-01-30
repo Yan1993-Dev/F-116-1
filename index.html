@@ -1,57 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <ul class="header__list">
-            <li class="header__list-item"><a class="header__list-link" href="/"><img src="#" alt="Logo"></a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Catalog</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Servises</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Blog</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">About Us</a></li>
-        </ul>
-        <ul>
-            <li class="header__list-item"><a class="header__list-link" href="#">789-254-14</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Contact us</a></li>
-        </ul>
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__list-link" href="/"><img src="./img/logo.png" alt="Logo" /></a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">Catalog</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">Servises</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">Blog</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">About Us</a>
+        </li>
+      </ul>
+      <ul class="header__list-contact">
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">789-254-14</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-link" href="#">Contact us</a>
+        </li>
+      </ul>
     </header>
     <main class="main">
-        <section class="banner">
-            <h1 class="banner__title">
-                The world
-            </h1>
-            <button type="button" class="banner__btn">Get a free</button>
-        </section>
-        <section>
-            <h2>our most popular servises</h2>
-            <ul>
-                <li>
-                    <img src="#" alt="Servis">
-                    <p>Carper</p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </li>
-                <li>
-                    <img src="#" alt="Servis">
-                    <p>Carper</p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </li>
-                <li>
-                    <img src="#" alt="Servis">
-                    <p>Carper</p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </li>
-                <li>
-                    <img src="#" alt="Servis">
-                    <p>Carper</p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </li>
+      <section class="banner">
+        <h1 class="banner__title">The world</h1>
+        <button type="button" class="banner__btn">Get a free</button>
+      </section>
+      <section class="services">
+        <h2 class="servises__title">our most popular servises</h2>
+        <ul class="servises__list">
+          <li class="servises__list-item">
+            <img src="./img/service.jpg" alt="Servis" class="servises__list-img" />
+            <p class="servises__list-title">Carper</p>
+            <p class="servises__list-desc">Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="servises__list-link">Learn more</a>
+          </li>
+          <li class="servises__list-item">
+            <img src="./img/service-one.jpg" alt="Servis" class="servises__list-img" />
+            <p class="servises__list-title">Carper</p>
+            <p class="servises__list-desc">Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="servises__list-link">Learn more</a>
+          </li>
+          <li class="servises__list-item">
+            <img src="./img/service-two.jpg" alt="Servis" class="servises__list-img" />
+            <p class="servises__list-title">Carper</p>
+            <p class="servises__list-desc">Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="servises__list-link">Learn more</a>
+          </li>
+          <li class="servises__list-item">
+            <img src="./img/service-three.jpg" alt="Servis" class="servises__list-img" />
+            <p class="servises__list-title">Carper</p>
+            <p class="servises__list-desc">Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="servises__list-link">Learn more</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <ul class="about__list">
+          <li class="about__list-item">
+            <h2 class="about__list-title">Why Haley’s Chem-Dry?</h2>
+          </li>
+          <li class="about__list-item">
+            Chem-Dry’s mission is helping people live healthy lives, which
+            starts with clean carpets and a healthy home. Our proprietary hot
+            carbonating extraction cleaning process penetrates deep into the
+            fibers, removing an average of 98% of common household allergens
+            from carpets, upholstery and rugs and 89% of the airborne bacteria
+            in your home when a sanitizer is added.* Plus, our green-certified
+            solution, The Natural®, contains no soaps or detergents so it’s safe
+            and non-toxic for your family and pets.
+          </li>
+          <li class="about__list-item">
+            <a href="#" class="about__list-link">Learn more</a>
+          </li>
+        </ul>
+        <img src="./img/cleaning.jpg" class="about__img" alt="Chem-Dry’s mission is helping people">
+      </section>
+      <section class="awards">
+        <ul class="awards__list">
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+            <li class="awards__list-item"><img src="./img/award.png" class="awards__list-img" alt="award"></li>
+        </ul>
+      </section>
+      <section class="maps">
+        <div class="maps__contact">
+            <ul class="maps__list">
+                <li class="maps__list-item"><h2 class="maps__list-title">Chem-Dry</h2></li>
+                <li class="maps__list-item">9420 Cedar CT, Thornton, CO 80229</li>
+                <li class="maps__list-item"><a href="tel:7206059399">(720) 605-9399 </a></li>
+                <li class="maps__list-item"><a href="#" class="maps__list-link">Learn more</a></li>
             </ul>
-        </section>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5371506304455!2d49.28814455158159!3d53.51246307991602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1675094726939!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
     </main>
-</body>
+  </body>
 </html>
