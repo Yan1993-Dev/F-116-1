@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.servises__title {
+    text-align: center;
+}
+
+.servises__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.about {
+    display: flex;
+}
+
+.about__list {
+    margin-right: 120px;
+}
+
+.awards {
+    margin-top: 80px;
+}
+
+.awards__list {
+    display: flex;
+    column-gap: 45px;
+}
