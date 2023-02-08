@@ -1,7 +1,15 @@
+<<<<<<< Updated upstream
+=======
+a {
+    text-decoration: none;
+}
+
+>>>>>>> Stashed changes
 li {
     list-style-type: none;
 }
 
+<<<<<<< Updated upstream
 a {
     color: #333333;
     text-decoration: none;
@@ -59,6 +67,10 @@ h1 {
 
 .logo {
     margin-right: 25px;
+=======
+.hidden {
+    display: none;
+>>>>>>> Stashed changes
 }
 
 .header__list-link {
@@ -67,5 +79,24 @@ h1 {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
+<<<<<<< Updated upstream
 
+=======
+    color: #333333;
+}
+
+.header__list-link--phone {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    color: #95459A;
+}
+
+.header__list-link--contact {
+    padding: 11px 40px;
+    color: #FFFFFF;
+    background: #008752;
+    text-transform: uppercase;
+>>>>>>> Stashed changes
 }

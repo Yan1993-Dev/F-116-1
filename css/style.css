@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .banner {
     display: flex;
     flex-direction: column;
@@ -28,3 +29,57 @@
     display: flex;
     column-gap: 45px;
 }
+=======
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.banner__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 100%;
+  color: #00559D;
+}
+
+.banner__btn {
+  font-weight: 900;
+  padding: 16px 55px;
+  background: #95459A;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+
+.servises__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #00559D;
+}
+
+.servises__list-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2C3036;
+}
+
+.servises__list-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2C3036;
+}
+
+.servises__list-link {
+  padding: 11px 40px;
+  color: #FFFFFF;
+  background: #008752;
+  text-transform: uppercase;
+}
+>>>>>>> Stashed changes
