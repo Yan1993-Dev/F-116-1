@@ -15,6 +15,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
 }
 
 .services {

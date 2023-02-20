@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header container">
         <ul class="header__list">
           <li class="header__list-item">
-            <a class="header__list-link" href="/"><img src="./img/logo.png" alt="Logo" class="logo"/></a>
+            <a class="header__list-link" href="/"><img src="../img/logo.png" alt="Logo" class="logo"/></a>
           </li>
           <li class="header__list-item">
             <a class="header__list-link" href="#">Catalog</a>
@@ -37,5 +38,48 @@
           </li>
         </ul>
       </header>
+      <main>
+        <div class="container">
+          <h1 class="title">Contact  Us</h1>
+          <form action="#" class="form">
+            <div class="form__inner-wr">
+              <div class="form__wrapper">
+                <div class="form__inner">
+                  <label for="name" class="form__label">Name</label>
+                  <input type="text" id="name" class="form__input" placeholder="Ivan Ivanov">
+                </div>
+                <div class="form__inner">
+                  <label for="phone" class="form__label">Phone</label>
+                  <input type="tel" id="phone" class="form__input">
+                </div>
+              </div>
+              <div class="form__wrapper-email">
+                <label for="email" class="form__label">Email</label>
+                <input type="email" id="email" class="form__input-email">
+              </div>
+              <fieldset class="form__payment">
+                <legend class="form__payment-legend form__label">Payment Methods</legend>
+                <ul class="form__payment-list">
+                  <li class="form__payment-item">
+                    <input type="checkbox" id="Сash" class="form__payment-input">
+                    <label for="Сash" class="form__label form__label-payment">Сash</label>
+                  </li>
+                  <li class="form__payment-item">
+                    <input type="checkbox" id="Сredit" class="form__payment-input">
+                    <label for="Сredit" class="form__label form__label-payment">Сredit Сard</label>
+                  </li>
+                  <li class="form__payment-item">
+                    <input type="checkbox" id="Receipt" class="form__payment-input">
+                    <label for="Receipt" class="form__label form__label-payment">Receipt</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button type="submit" class="header__list-link--contact">Send</button>
+            </div>
+          </form>
+        </div>
+        
+
+      </main>
 </body>
 </html>
