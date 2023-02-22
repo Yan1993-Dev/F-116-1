@@ -1,4 +1,12 @@
-
+.banner {
+  position: relative;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #E0E7ED;
+  padding: 143px 0 286px;
+}
 
 .banner__title {
   font-style: normal;
@@ -6,15 +14,18 @@
   font-size: 90px;
   line-height: 100%;
   color: #00559D;
+  max-width: 765px;
 }
 
 .banner__btn {
   font-weight: 900;
-  padding: 16px 55px;
+  padding: 17px 58px;
   background: #95459A;
   text-transform: uppercase;
   color: #FFFFFF;
+  font-size: 24px;
   border: none;
+  margin-top: 40px;
   cursor: pointer;
 }
 
@@ -96,6 +107,7 @@
 .about__list {
   display: flex;
   flex-direction: column;
+  max-width: 480px;
 }
 
 .about__list-title {

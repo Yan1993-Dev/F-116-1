@@ -34,18 +34,20 @@
       </ul>
       <ul class="header__list-contact">
         <li class="header__list-item">
-          <a class="header__list-link--phone" href="#">789-254-14</a>
+          <a class="header__list-link--phone" href="#">719-431-9698</a>
         </li>
         <li class="header__list-item">
           <a class="header__list-link--contact" href="./pages/contact.html">Contact us</a>
         </li>
       </ul>
     </header>
-    <main class="main container">
+    <main class="main">
       <section class="banner">
-        <h1 class="banner__title">The world’s leading
-          cleaning company</h1>
-        <button type="button" class="banner__btn" aria-label="Open popup">Get a free Estimate</button>
+        <div class="container">
+          <h1 class="banner__title">The world’s leading
+            cleaning company</h1>
+          <button type="button" class="banner__btn" aria-label="Open popup">Get a free Estimate</button>
+        </div>
       </section>
       <section class="services container">
         <h2 class="servises__title">our most popular servises</h2>
@@ -148,5 +150,30 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5371506304455!2d49.28814455158159!3d53.51246307991602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1675094726939!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </main>
+    <div class="popup">
+      <form action="#" class="form">
+        <div class="form__inner-wr">
+          <div class="form__wrapper">
+            <div class="form__inner">
+              <label for="name" class="form__label">Name</label>
+              <input type="text" id="name" class="form__input" placeholder="Ivan Ivanov">
+            </div>
+            <div class="form__inner">
+              <label for="phone" class="form__label">Phone</label>
+              <input type="tel" id="phone" class="form__input">
+            </div>
+          </div>
+          <div class="form__wrapper-email">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" class="form__input-email">
+          </div>
+          <div class="form__wrapper-email">
+            <label for="message" class="form__label">Message</label>
+            <input type="text" id="message" class="form__input-email">
+          </div>
+          <button type="submit" class="header__list-link--contact">Send</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
