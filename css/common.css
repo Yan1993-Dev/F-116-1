@@ -159,3 +159,22 @@ h3 {
 .form__payment-input {
     appearance: none;
 }
+
+.popup {
+    display: none;
+    position: absolute;
+    left: 24%;
+    top: 25%;
+}
+
+.open {
+    display: block;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.logo:active {
+    opacity: 0.4;
+}
